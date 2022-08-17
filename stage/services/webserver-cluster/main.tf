@@ -133,7 +133,7 @@
     backend = "s3"
         config = {
             bucket = "warmup-running-state"
-            key    = "pailstore/terraform.tfstate"
+            key    = "stage/data-store/mysql/terraform.tfstate"
             region = "us-east-2"
         }
     }
